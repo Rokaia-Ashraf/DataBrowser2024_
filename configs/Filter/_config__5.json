@@ -1,0 +1,159 @@
+{
+  "zoomto": true,
+  "allowCustom": true,
+  "filters": [
+    {
+      "layerId": "BaseMap_202008131429_8823",
+      "url": "https://arcport.gopp.local/server/rest/services/BaseMap_SpaD/BaseMap_202008131429/FeatureServer/5",
+      "name": "حدود المحافظة",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "gov_name",
+              "label": "gov_name",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeSmallInteger"
+            },
+            "operator": "numberOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": {
+              "prompt": "اسم المحافظة",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          }
+        ],
+        "expr": "",
+        "displaySQL": ""
+      },
+      "icon": "",
+      "enableMapFilter": false,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": true
+    },
+    {
+      "layerId": "BaseMap_202008131429_8062",
+      "url": "https://arcport.gopp.local/server/rest/services/BaseMap_SpaD/BaseMap_202008131429/FeatureServer/8",
+      "name": "حدود_المركز",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "gov_name",
+              "label": "gov_name",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeSmallInteger"
+            },
+            "operator": "numberOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": {
+              "prompt": "اسم_المحافظة",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          },
+          {
+            "fieldObj": {
+              "name": "markaz_name",
+              "label": "markaz_name",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": {
+              "prompt": "اسم_المركز",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          }
+        ],
+        "expr": "",
+        "displaySQL": ""
+      },
+      "icon": "",
+      "enableMapFilter": false,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": true
+    },
+    {
+      "layerId": "BaseMap_202008131429_2354",
+      "url": "https://arcport.gopp.local/server/rest/services/BaseMap_SpaD/BaseMap_202008131429/FeatureServer/45",
+      "name": "الأراضى_العمرانية",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "built_lu",
+              "label": "built_lu",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": {
+              "prompt": "الاستعمال",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          },
+          {
+            "fieldObj": {
+              "name": "gov_name",
+              "label": "gov_name",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeSmallInteger"
+            },
+            "operator": "numberOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": {
+              "prompt": "اسم_المحافظة is",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          }
+        ],
+        "expr": "",
+        "displaySQL": ""
+      },
+      "icon": "",
+      "enableMapFilter": false,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": true
+    }
+  ]
+}

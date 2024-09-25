@@ -1,0 +1,178 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "column",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "height": 24.0418118466899,
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "8143742005091781-6248214515443353-1"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "8143742005091781-6248214515443353-1"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "height": 75.95818815331012,
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "8143742005091781-6248214515443353-3"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "8143742005091781-6248214515443353-3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "8143742005091781-6248214515443353-1",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#222222",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#fff"
+        },
+        "text": "الاراضى المتاحة للتنمية الصناعية"
+      }
+    },
+    {
+      "id": "8143742005091781-6248214515443353-2",
+      "type": "image",
+      "visible": false,
+      "config": {
+        "background": {
+          "backgroundColor": "#222222",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        }
+      }
+    },
+    {
+      "id": "8143742005091781-6248214515443353-3",
+      "type": "number",
+      "visible": true,
+      "config": {
+        "indicators": [],
+        "background": {
+          "backgroundColor": "#d3d3d3",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": true,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 53,
+          "textColor": "#000001"
+        },
+        "dataFormat": {
+          "unit": "none",
+          "decimalPlaces": "0",
+          "digitSeparator": true,
+          "prefix": "",
+          "suffix": ""
+        },
+        "statistics": [
+          {
+            "type": "value",
+            "config": {
+              "type": "stat",
+              "value": {
+                "type": "count"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "8143742005091781-6248214515443353-4",
+      "type": "text",
+      "visible": false,
+      "config": {
+        "background": {
+          "backgroundColor": "#222222",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 12,
+          "textColor": "#fff"
+        },
+        "text": "Description: additional information about this infographic."
+      }
+    }
+  ],
+  "name": "number",
+  "wid": "8143742005091781",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FROM_FRAMEWORK",
+    "name": "الاراضى المتاحة للتنمية الصناعية",
+    "frameWorkDsId": "external~5096230421566634",
+    "useSelection": false,
+    "filterByExtent": false
+  }
+}

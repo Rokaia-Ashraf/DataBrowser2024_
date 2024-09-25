@@ -1,0 +1,249 @@
+{
+  "hideLayersAfterWidgetClosed": true,
+  "labelTasks": "Tasks",
+  "labelResults": "Results",
+  "showFilterLabel": true,
+  "criteiraLabel": "Query criteria",
+  "spatialFilterLabel": "Spatial filters",
+  "queries": [
+    {
+      "url": "https://spad.gopp.local/server/rest/services/DataBrowser/DataBrowser_Widgets/MapServer/0",
+      "name": "الأراضى الفضاء",
+      "icon": {
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 10,
+        "type": "esriPMS",
+        "url": "http://spad.gopp.local/portal/portalimages/Symbols/Shapes/RedPin1LargeB.png",
+        "imageData": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAADImlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1MzA4NzI3NkQyN0MxMUUwQUU5NUVFMEYwMTY0NzUwNSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1MzA4NzI3N0QyN0MxMUUwQUU5NUVFMEYwMTY0NzUwNSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjUzMDg3Mjc0RDI3QzExRTBBRTk1RUUwRjAxNjQ3NTA1IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjUzMDg3Mjc1RDI3QzExRTBBRTk1RUUwRjAxNjQ3NTA1Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQg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",
+        "contentType": "image/png",
+        "width": 18,
+        "height": 18
+      },
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "VCTLand_TYPE",
+              "label": "VCTLand_TYPE",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeSmallInteger"
+            },
+            "operator": "numberOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": 1
+            },
+            "interactiveObj": "",
+            "caseSensitive": false
+          },
+          {
+            "logicalOperator": "OR",
+            "parts": [
+              {
+                "fieldObj": {
+                  "name": "Gov_Name",
+                  "label": "Gov_Name",
+                  "dateFormat": "",
+                  "shortType": "number",
+                  "type": "esriFieldTypeSmallInteger"
+                },
+                "operator": "numberOperatorIs",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "value",
+                  "value": null
+                },
+                "interactiveObj": {
+                  "prompt": "اسم_المحافظة is",
+                  "hint": "",
+                  "cascade": "none"
+                },
+                "caseSensitive": false
+              },
+              {
+                "fieldObj": {
+                  "name": "Markaz_Name",
+                  "label": "Markaz_Name",
+                  "dateFormat": "",
+                  "shortType": "string",
+                  "type": "esriFieldTypeString"
+                },
+                "operator": "stringOperatorIs",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "value",
+                  "value": null
+                },
+                "interactiveObj": {
+                  "prompt": "اسم_المركز is",
+                  "hint": "برجاء إدخال اسم المركز",
+                  "cascade": "none"
+                },
+                "caseSensitive": false
+              }
+            ]
+          }
+        ],
+        "expr": "",
+        "displaySQL": ""
+      },
+      "showSQL": true,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": { "readFromWebMap": true },
+      "orderByFields": ["Markaz_Name ASC", "Set_Name ASC"],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [155, 187, 89, 128],
+        "outline": {
+          "color": [115, 140, 61, 255],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "canModifySymbol": false,
+      "enableExport": true,
+      "defaultExpand": true,
+      "singleResultLayer": true,
+      "webMapLayerId": "DataBrowser_Widgets_383_0",
+      "customResultName": true
+    },
+    {
+      "url": "",
+      "name": "التعليم الأساسي",
+      "icon": {
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriPMS",
+        "url": "https://spad.gopp.local/portal/portalimages/Symbols/Government/Library.png",
+        "imageData": "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",
+        "contentType": "image/png",
+        "width": 18,
+        "height": 18
+      },
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "Gov_Name",
+              "label": "Gov_Name",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeSmallInteger"
+            },
+            "operator": "numberOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": {
+              "prompt": "اسم_المحافظة is",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          },
+          {
+            "fieldObj": {
+              "name": "Built_LU",
+              "label": "Built_LU",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": 5
+            },
+            "interactiveObj": "",
+            "caseSensitive": false
+          },
+          {
+            "logicalOperator": "OR",
+            "parts": [
+              {
+                "fieldObj": {
+                  "name": "Built_Type",
+                  "label": "Built_Type",
+                  "dateFormat": "",
+                  "shortType": "number",
+                  "type": "esriFieldTypeSmallInteger"
+                },
+                "operator": "numberOperatorIs",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "value",
+                  "value": 504
+                },
+                "interactiveObj": "",
+                "caseSensitive": false
+              },
+              {
+                "fieldObj": {
+                  "name": "Built_Type",
+                  "label": "Built_Type",
+                  "dateFormat": "",
+                  "shortType": "number",
+                  "type": "esriFieldTypeSmallInteger"
+                },
+                "operator": "numberOperatorIs",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "value",
+                  "value": 505
+                },
+                "interactiveObj": "",
+                "caseSensitive": false
+              }
+            ]
+          }
+        ],
+        "expr": "",
+        "displaySQL": ""
+      },
+      "showSQL": true,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": { "readFromWebMap": true },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [155, 187, 89, 128],
+        "outline": {
+          "color": [115, 140, 61, 255],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "canModifySymbol": false,
+      "enableExport": false,
+      "defaultExpand": true,
+      "singleResultLayer": true,
+      "webMapLayerId": "DataBrowser_Widgets_383_2",
+      "customResultName": true
+    }
+  ]
+}

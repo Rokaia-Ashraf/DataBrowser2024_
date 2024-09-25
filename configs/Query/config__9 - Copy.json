@@ -1,0 +1,82 @@
+{
+  "hideLayersAfterWidgetClosed": true,
+  "labelTasks": "hamada9",
+  "labelResults": "Results",
+  "showFilterLabel": true,
+  "criteiraLabel": "Query criteria",
+  "spatialFilterLabel": "Spatial filters",
+  "queries": [
+    {
+      "url": "",
+      "name": "حدود المحافظة",
+      "icon": {
+        "color": [0, 0, 128, 128],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [0, 0, 128, 255],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      },
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "Gov_Name",
+              "label": "Gov_Name",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeSmallInteger"
+            },
+            "operator": "numberOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": 3
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "displaySQL": "Gov_Name = 3",
+            "expr": "Gov_Name = 3"
+          }
+        ],
+        "expr": "Gov_Name = 3",
+        "displaySQL": "Gov_Name = 3"
+      },
+      "showSQL": true,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": { "readFromWebMap": true },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [155, 187, 89, 128],
+        "outline": {
+          "color": [115, 140, 61, 255],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "canModifySymbol": false,
+      "enableExport": false,
+      "defaultExpand": true,
+      "singleResultLayer": true,
+      "webMapLayerId": "DataBrowserNew2023___9457_79",
+      "customResultName": true
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "charts": [
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "color": [155, 187, 89, 128],
+        "outline": {
+          "color": [115, 140, 61, 255],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "webMapLayerId": "databrowser_24_11_2021_7059_6",
+      "mode": "field",
+      "name": "حدود المركز",
+      "highLightColor": "#ff0000",
+      "types": [
+        {
+          "type": "column",
+          "display": {
+            "colors": ["#5d9cd3"],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true
+          }
+        }
+      ],
+      "operation": "sum",
+      "valueFields": ["Gov_Name"]
+    }
+  ]
+}

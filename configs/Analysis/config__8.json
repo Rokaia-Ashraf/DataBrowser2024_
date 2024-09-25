@@ -1,0 +1,44 @@
+{
+  "analysisTools": [
+    {
+      "name": "CreateBuffers",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "allowToExport": true,
+      "returnFeatureCollection": true,
+      "toolLabel": "Create Buffers"
+    },
+    {
+      "name": "ExtractData",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "allowToExport": true,
+      "toolLabel": "Extract Data"
+    },
+    {
+      "name": "FindNearest",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "allowToExport": true,
+      "returnFeatureCollection": false,
+      "showOutputType": false,
+      "toolLabel": "Find Nearest"
+    },
+    {
+      "name": "JoinFeatures",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "allowToExport": true,
+      "returnFeatureCollection": false,
+      "toolLabel": "Join Features"
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "taskOper": "OR",
+  "groupByLayer": false,
+  "zoomto": true,
+  "zoombackto": true,
+  "allowCustom": true,
+  "allowResetAll": true,
+  "allowTurnOffAll": true,
+  "filters": [
+    {
+      "layerId": "M_BaseMap_21_9_2020_5908",
+      "url": "https://arcport.gopp.local/server/rest/services/BaseMap_SpaD/M_BaseMap_21_9_2020/FeatureServer/29",
+      "name": "حدود_الاقليم",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "Region_Name",
+              "label": "Region_Name",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": ""
+            },
+            "interactiveObj": {
+              "prompt": "اسم_الاقليم",
+              "hint": "",
+              "cascade": "previous"
+            },
+            "caseSensitive": false
+          }
+        ],
+        "expr": "",
+        "displaySQL": ""
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": true,
+      "symbol": {
+        "color": [0, 0, 128, 128],
+        "size": 17.25,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [0, 0, 128, 255],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    {
+      "layerId": "M_BaseMap_21_9_2020_5920",
+      "url": "https://arcport.gopp.local/server/rest/services/BaseMap_SpaD/M_BaseMap_21_9_2020/FeatureServer/4",
+      "name": "حدود_المحافظة",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "Region_Name",
+              "label": "Region_Name",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": ""
+            },
+            "interactiveObj": {
+              "prompt": "الإقليم",
+              "hint": "",
+              "cascade": "all"
+            },
+            "caseSensitive": false
+          },
+          {
+            "fieldObj": {
+              "name": "Gov_Name",
+              "label": "Gov_Name",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeSmallInteger"
+            },
+            "operator": "numberOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": null
+            },
+            "interactiveObj": {
+              "prompt": "اسم_المحافظة is",
+              "hint": "",
+              "cascade": "previous"
+            },
+            "caseSensitive": false
+          }
+        ],
+        "expr": "",
+        "displaySQL": ""
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": true,
+      "symbol": {
+        "color": [0, 0, 128, 128],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [0, 0, 128, 255],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    },
+    {
+      "layerId": "M_BaseMap_21_9_2020_7980",
+      "url": "https://arcport.gopp.local/server/rest/services/BaseMap_SpaD/M_BaseMap_21_9_2020/FeatureServer/5",
+      "name": "حدود_الشياخات_القرى",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "Gov_Name",
+              "label": "Gov_Name",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeSmallInteger"
+            },
+            "operator": "numberOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": null
+            },
+            "interactiveObj": {
+              "prompt": "اسم_المحافظة",
+              "hint": "",
+              "cascade": "previous"
+            },
+            "caseSensitive": false
+          },
+          {
+            "fieldObj": {
+              "name": "Shiakha_Name",
+              "label": "Shiakha_Name",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": ""
+            },
+            "interactiveObj": {
+              "prompt": "اسم_الشياخة_القرية is",
+              "hint": "",
+              "cascade": "previous"
+            },
+            "caseSensitive": false
+          }
+        ],
+        "expr": "",
+        "displaySQL": ""
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": true,
+      "symbol": {
+        "color": [0, 0, 128, 128],
+        "size": 18,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriSMS",
+        "style": "esriSMSCircle",
+        "outline": {
+          "color": [0, 0, 128, 255],
+          "width": 0.75,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        }
+      }
+    }
+  ]
+}

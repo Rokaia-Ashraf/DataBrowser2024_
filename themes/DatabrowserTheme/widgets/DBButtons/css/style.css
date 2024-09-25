@@ -1,0 +1,88 @@
+.db-buttons .item {
+  display: block;
+  float: left;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 7.5px;
+  background-color: #cccccc;
+  opacity: 0.9;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.41);
+  cursor: pointer;
+  background-size: 29px;
+  background-repeat: no-repeat;
+  background-position: 11px 10px;
+}
+
+.db-buttons .item.active {
+  background-color: #2a2a2a;
+}
+
+.db-buttons .item.table {
+  background-image: url(../images/18-1.png);
+  background-image: url(../images/18.png);
+}
+
+.db-buttons .item.table.active {
+  background-image: url(../images/18-1.png);
+}
+
+.db-buttons .item.statistics {
+  background-image: url(../images/19-1.png);
+  background-image: url(../images/19.png);
+}
+
+.db-buttons .item.statistics.active {
+  background-image: url(../images/19-1.png);
+}
+
+.db-buttons .item.gallery {
+  background-image: url(../images/20-1.png);
+  background-image: url(../images/20.png);
+}
+
+.db-buttons .item.gallery.active {
+  background-image: url(../images/20-1.png);
+}
+
+.db-buttons .gallery.content {
+  left: 63px;
+  right: 0;
+  bottom: 0;
+  height: 200px;
+  position: fixed;
+  background: white;
+  display: block;
+  overflow: auto;
+  display: none;
+}
+
+.db-buttons .gallery.content::before {
+  content: "Basemap Gallery";
+  display: block;
+  background: #d1d1d1;
+  font-size: 19px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.db-buttons .statistics.content {
+  left: 63px;
+  right: 0;
+  bottom: 0;
+  height: 183px;
+  position: fixed;
+  background: white;
+  display: block;
+  overflow: auto;
+  display: none;
+}
+
+.db-buttons .statistics.content::before {
+  content: "Summary";
+  display: block;
+  background: #d1d1d1;
+  font-size: 19px;
+  padding: 10px;
+  font-weight: bold;
+}
